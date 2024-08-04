@@ -1,0 +1,42 @@
+body {
+    font-family: "Cairo", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.page{
+    background-color: #f1f5f9;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 250px;
+}
+.sidebar > h3{
+}
+.sidebar > h3::before{
+    content: "";
+    position: absolute;
+}
+.sidebar > h3::after{
+    content: "";
+    position: absolute;
+}
+
+
